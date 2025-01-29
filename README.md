@@ -18,8 +18,7 @@ question, so asking it will help others, too.
 
 Every file that ends with `.qmd` will appear in your data report unless
 you take steps to prevent this. First, follow the instructions in each
-document.\
-After that, update the chapters listed in `_quarto.yml` to include only
+document. After that, update the chapters listed in `_quarto.yml` to include only
 the files you want to use and in the order you want to use them. Again,
 please reach out with questions.
 
@@ -35,9 +34,9 @@ you can safely delete them from your computer if you want.
 
 ## Rendering the data report
 You can render the data report from any `.qmd` file that's used in the
-report. The rendered report will be in a folder named `_book` that.
-Quarto will create this in your R project the first time you render the
-book, and subsequent renderings will overwrite the existing version.
+report. The rendered report will be in a folder named `_book`. Quarto will create 
+this in your R project the first time you render the book, and subsequent 
+renderings will overwrite the existing version.
 
 When you open the document in Word, you'll be confronted with two
 dialogue boxes:  
@@ -52,7 +51,7 @@ though.
 
 There are instructions in the rendered document (also in `index.qmd`) to guide
 you through some formatting you'll need to do in Word.  While this template does
-let you work collaborative with your coauthors, it doesn't handle all the detailed
+let you work collaboratively with your coauthors, it doesn't handle all the detailed
 formatting as well as I'd like.  If you know how to improve any of these steps, 
 please let me know, submit a pull request with the proposed changes, or open an 
 issue.
