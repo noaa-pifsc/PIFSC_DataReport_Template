@@ -42,11 +42,11 @@ book, and subsequent renderings will overwrite the existing version.
 When you open the document in Word, you'll be confronted with two
 dialogue boxes:  
 The first asks if you want to update fields in the document.  Click "Yes".  
-![](ExampleContent/UpdateFields.png){fig-alt="Microsoft Word dialogue box."}
+![](ExampleContent/UpdateFields.png)
 \
 The second asks how you want to update the Table of Contents.  Select "Update 
 entire table" and click "OK".  I'm not sure it really matters which you select, 
-though. 
+though.  
 ![](ExampleContent/UpdateTOC.png){fig-alt="Another Microsoft Word dialogue box."}
 \
 
