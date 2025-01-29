@@ -48,7 +48,7 @@ The second asks how you want to update the Table of Contents.  Select "Update
 entire table" and click "OK".  I'm not sure it really matters which you select, 
 though.  
 ![](ExampleContent/UpdateTOC.png)
-\
+
 
 There are instructions in the rendered document (also in `index.qmd`) to guide
 you through some formatting you'll need to do in Word.  While this template does
