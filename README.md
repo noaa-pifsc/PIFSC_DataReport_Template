@@ -4,7 +4,34 @@ in R. It does this by rendering the report as a Quarto book. The
 rendered report will still need some additional formatting, so only a
 Word document is rendered (no pdf or HTML documents).
 
-### What's in the repository?
+## Getting started
+You can use this template to create your own repository for your data report. 
+To do this, click on the green button in the upper left that says "Use this
+template": ![](ExampleContent/UseThisTemplate.png)
+\
+Follow the steps to create a new repository with whatever name makes sense to 
+you.  You can learn about this in GitHub's [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) 
+to creating a repository from a template.  
+
+Once you've created the new, independent repository, you can do whatever you'd like
+with it and it will not mess up this template.  To use the new repo in RStudio,
+you'll start online in your newly created repo.  Click the green button that says, 
+"< > Code": ![](ExampleContent/CodeButton.png)
+\
+Copy the URL that from the box that opens. Then, go to RStudio and create a new 
+project, with version control, using Git and paste the URL for your repo as the
+repository URL.  You can learn more about this in Jenny 
+Bryan's [guide](https://happygitwithr.com/existing-github-first) to creating an
+R project from a GitHub repo.  
+
+That's it.  You are good to go!
+
+*One exception to these instructions is if you'd like to contribute to this 
+template.  Then, you should fork the repo so that you can submit pull requests.
+If I lost you with that last sentence, fear not.  You can also contribute to 
+the template by opening issues or via email (see below)*
+
+## What's in the repository?
 This repository contains a few categories of files.
 
 #### Files you should edit
