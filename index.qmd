@@ -80,13 +80,15 @@ NOAA Data Report DR-##-#
 ![](900px-Seal_of_the_US_DoC.png){fig-alt="U.S. Department of Commerce seal." width="1.3in"}  
 \
 U.S. Department of Commerce\
-Gina Raimondo, Secretary
+Jeremy Pelter, Acting Secretary of Commerce
 
 National Oceanic and Atmospheric Administration\
-Richard W. Spinrad, Ph.D., NOAA Administrator
+Vice Admiral Nancy Hann, Deputy Under Secretary for Operations Performing the 
+Duties of Under Secretary of Commerce for Oceans and Atmosphere and NOAA 
+Administrator
 
 National Marine Fisheries Service\
-Janet Coit, Assistant Administrator for Fisheries
+Emily Menashes, Acting Assistant Administrator for Fisheries
 
 {{< pagebreak >}}
 
@@ -102,13 +104,15 @@ CoverPhotographer <- c("Either note the cover photo photograper here or delete t
 ReportAuthors <- c("Replace this green text with the authors using the format of Doe J.S., Smith C.R.")
 ```
 
-**About this report**  
+**Acknowledgements**  
 
-The Pacific Islands Fisheries Science Center (PIFSC) uses the PIFSC Data Report 
-series to distribute scientific and technical information that has been scientifically 
-reviewed and edited. Documents within this series reflect sound professional work 
-and may be referenced in the formal scientific and technical literature.  
-
+Acknowledgments here. For example, this template is possible in part through
+NMFS Open Science, an encouraging, supportive, and ambitious group of people
+working to remove barriers in our scientific workflows.  This effort was further 
+made possible by PIFSC's technical editor Revere Wood.  This template makes 
+generous use of existing open resources, which are recognized throughout the 
+template as they're used.  If any are pivotal to the creation of your data 
+report, please recognize them appropriately.  
 
 Cover photo: \[`r CoverPhotoDesc`\]. Photo Credit: NOAA Fisheries. Photographer: `r CoverPhotographer`.  
 

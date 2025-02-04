@@ -17,7 +17,6 @@ book:
     - index.qmd
     - ExecutiveSummary.qmd
     - MainBodyText.qmd
-    - Acknowledgements.qmd
     - LiteratureCited.qmd
     - References.qmd
     - Appendix.qmd
@@ -29,5 +28,5 @@ format:
   docx:
     toc: true
     toc-depth: 4
-    reference-doc: OFFICIAL_PIFSC_Data_Reports_July_2024.docx
+    reference-doc: OFFICIAL_PIFSC_Data_Reports_Jan_2025.docx
     always_allow_html: true
