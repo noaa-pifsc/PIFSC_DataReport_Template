@@ -112,6 +112,9 @@ Some notes about the code:\
 you *want* to include code, delete this line.\
 - `message: false` prevents messages that result from running your code
 from showing up in your document.\
+`warning: false` prevents warnings that result from running your code
+from showing up in your document.  In this case, it's a warning about the 
+version of R that `nmfspalette` was built under.\ 
 - `label: fig-co2growth` allows you to create a cross reference to the
 figure in your text. There's an example of this below the code.\
 - calling `par(bg = NA)` before plotting creates a transparent
@@ -122,6 +125,7 @@ use `bg = "transparent"` in the command to save your figure instead.
 ```{r}
 #| echo: false
 #| message: false
+#| warning: false
 #| label: fig-co2growth
 #| fig-cap: Annual increase in atmospheric CO~2~
 #| fig-alt: Line graph showing increasing growth rate over time
