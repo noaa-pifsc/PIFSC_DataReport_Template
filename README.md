@@ -1,6 +1,3 @@
-*This template is under development and ready for people to test it out.  Exciting!
-If you'd like help test it, please let me know (phoebe.woodworth-jefcoats@noaa.gov).*
-
 # PIFSC Data Report Template
 This repository is designed to allow you to prepare a PIFSC Data Report
 in R. It does this by rendering the report as a Quarto book. The
