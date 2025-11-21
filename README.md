@@ -69,6 +69,14 @@ The files in `ExampleContent` are used in the Quarto template examples
 and by this ReadMe. Once you're working with your actual data report,
 you can safely delete them from your computer if you want.
 
+## Working with the template
+It'll probably be easier to work with this template using RStudio's Source 
+editor as opposed to its Visual editor.  This because the template includes 
+instructions in both Markdown and R code, some of which won't be visible in the 
+Visual editor.  To toggle between the two, click the option in the upper left of 
+the editor window:
+![](ExampleContent/SourceEditor.png)
+
 ## Rendering the data report
 You can render the data report from any `.qmd` file that's used in the
 report. The rendered report will be in a folder named `_book`. Quarto will create 
