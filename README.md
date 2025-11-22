@@ -76,7 +76,6 @@ instructions in both Markdown and R code, some of which won't be visible in the
 Visual editor.  To toggle between the two, click the option in the upper left of 
 the editor window:
 ![](ExampleContent/SourceEditor.png)
-\
 
 If you run into trouble installing the [nmfspalette](https://nmfs-fish-tools.github.io/nmfspalette/)
 R package, try this fix recommended by Kathryn Doering of OST:
