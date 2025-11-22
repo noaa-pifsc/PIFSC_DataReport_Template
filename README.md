@@ -77,6 +77,7 @@ Visual editor.  To toggle between the two, click the option in the upper left of
 the editor window:
 ![](ExampleContent/SourceEditor.png)
 \
+
 If you run into trouble installing the [nmfspalette](https://nmfs-fish-tools.github.io/nmfspalette/)
 R package, try this fix recommended by Kathryn Doering of OST:
 `install.packages("nmfspalette", repos = c("https://noaa-fisheries-integrated-toolbox.r-universe.dev", "https://cloud.r-project.org"))`
