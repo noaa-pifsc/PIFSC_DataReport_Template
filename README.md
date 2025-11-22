@@ -76,6 +76,14 @@ instructions in both Markdown and R code, some of which won't be visible in the
 Visual editor.  To toggle between the two, click the option in the upper left of 
 the editor window:
 ![](ExampleContent/SourceEditor.png)
+\
+If you run into trouble installing the [nmfspalette](https://nmfs-fish-tools.github.io/nmfspalette/)
+R package, try this fix recommended by Kathryn Doering of OST:
+`install.packages("nmfspalette", repos = c("https://noaa-fisheries-integrated-toolbox.r-universe.dev", "https://cloud.r-project.org"))`
+The package underwent a major upgrade in 2024 to reflect the changes to NMFS 
+branding colors, so it's a good idea to make sure you have the most recent 
+version.  If updating doesn't do the trick, try uninstalling and reinstalling 
+the package.
 
 ## Rendering the data report
 You can render the data report from any `.qmd` file that's used in the
