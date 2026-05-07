@@ -220,9 +220,6 @@ caption first.  Eliminating the caption altogether breaks the table label
 This example creates a table by hand, which can be tedious though is
 sometimes necessary.
 
-Table caption (for use in Word): Contribution to 2022 US emissions and 100-year 
-global warming potential of the top greenhouse gases 
-
 | **Greenhouse Gas (GHG)** | **Percent of 2022 US GHG Emissions** | **Global Warming Potential** |
 |:-------------------------|-------------------------------------:|-----------------------------:|
 | Carbon Dioxide (CO~2~)   |                                 79.7 |                            1 |
@@ -230,11 +227,8 @@ global warming potential of the top greenhouse gases
 | Nitrous Oxide (N~2~O)    |                                  6.1 |                          265 |
 | Fluoronated Gases        |                                  3.1 |                       5,195* |
 
-: {#tbl-GWP}
-
-Note that while Quarto lets you add the table caption after the colon in the 
-line with the tag, this leads to formatting issues later on.  Instead, put the
-desired caption in the text so that you can copy and paste Word.
+: Contribution to 2022 US emissions and 100-year global warming potential of the top 
+greenhouse gases {#tbl-GWP}
 
 ::: {custom-style="Table Descriptive Text"}
 \*average across all fluoronated gasses.  Sources: <https://www.epa.gov/system/files/documents/2025-01/ghg-emission-factors-hub-2025.pdf>, 
@@ -244,6 +238,12 @@ desired caption in the text so that you can copy and paste Word.
 In the code that creates @tbl-GWP the colons (:) in the line under the header 
 denote column alignment.  Although this seems not to be working...  Something to
 fix.
+
+Note that the above approach embeds the caption in the table.  You'll need to
+delete this entire line from the rendered table to allow the table to be 
+correctly formatted.  Just be sure to copy the caption into the Word table 
+caption first.  Eliminating the caption altogether breaks the table label 
+(sigh...).
 
 #### Landscape orientation for wide tables
 If you have a very wide table, you can use landscape orientation to display it 
