@@ -89,7 +89,11 @@ the package.
 You can render the data report from any `.qmd` file that's used in the
 report. The rendered report will be in a folder named `_book`. Quarto will create 
 this in your R project the first time you render the book, and subsequent 
-renderings will overwrite the existing version.
+renderings will overwrite the existing version.  
+
+If you're experiencing errors related to cross references or if it doesn't look
+like the latest versions of all your `.qmd` files are rendering, try entering
+`quarto render` into the Terminal in RStudio.
 
 When you open the document in Word, you'll be confronted with one or two
 dialogue boxes:  
